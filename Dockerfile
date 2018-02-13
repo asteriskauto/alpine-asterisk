@@ -5,7 +5,7 @@ MAINTAINER j3st3r
 
 
 RUN apk add --update less curl sngrep ngrep \
-      asterisk asterisk-odbc asterisk-curl asterisk-speex asterisk-sample-config \
+      asterisk asterisk-cdr-mysql asterisk-curl asterisk-speex asterisk-sample-config \
 &&  rm -rf /var/cache/apk/* /tmp/* /var/tmp/*
 
 
